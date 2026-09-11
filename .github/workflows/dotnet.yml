@@ -70,4 +70,4 @@ jobs:
           --port=8080 \
           --min-instances=0 \
           --max-instances=2 \
-          --set-env-vars="RTHomeApi__BaseUrl=${{ steps.api_url.outputs.url }}"
+          --set-env-vars="RTHomeApi__BaseUrl=https://rthomepropertymanagement-167570097653.europe-west1.run.app"
